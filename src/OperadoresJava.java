@@ -11,5 +11,24 @@ public class OperadoresJava {
         //converter números negativos em positivos (multiplicar por -1)
         numero = numero * -1;
         System.out.println(numero);
+
+        // x repeticao
+        //numero = numero + 1; incrementar
+        System.out.println( ++ numero);
+
+        numero = numero ++;
+        System.out.println(numero);
+
+        //decrementar
+        //numero = numero -1;
+        System.out.println( -- numero );
+
+        boolean variavel = true;
+        System.out.println(!variavel);
+
+        variavel = !variavel;
+        System.out.println(variavel);
+
+
     }
 }
