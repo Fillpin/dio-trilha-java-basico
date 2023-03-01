@@ -1,3 +1,5 @@
+package src.smartvApp;
+
 public class SmartTV {
     boolean ligada = false;
     int canal = 1;
