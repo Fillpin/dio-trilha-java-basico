@@ -7,11 +7,11 @@ public class Usuario {
 
 
         // Ligando a TV...
-        // String statusTV = smartTv.ligada ? "TV Ligada!" : "TV Desligada.";
-
-        System.out.println("TV ligada? " + smartTv.ligada);
+        System.out.println("Ligando a TV...");
         smartTv.ligar();
-        System.out.println("TV ligada? " + smartTv.ligada);
+        String TVligada = smartTv.ligada==true ? "TV Ligada!" : "TV Desligada.";
+        System.out.println(TVligada);
+
         // Diminuindo o volume...
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
@@ -29,13 +29,15 @@ public class Usuario {
 
         // Imprimindo novo Status da Tv...
         System.out.println("Novo Status da TV >>>");
-        System.out.println("TV ligada? " + smartTv.ligada);
+        System.out.println(TVligada);
         System.out.println("Canal atual: " + smartTv.canal);
         System.out.println("Volume atual: " + smartTv.volume);
 
         //Desligando a TV...
+        System.out.println("Desligando a TV...");
         smartTv.desligar();
-        System.out.println("TV ligada? " + smartTv.ligada);
+        String TVdesligada = smartTv.ligada==false ? "TV Desligada." : "TV Ligada!";
+        System.out.println(TVdesligada);
         System.out.println("fim.");
 
     }
