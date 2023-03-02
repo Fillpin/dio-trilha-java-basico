@@ -1,5 +1,7 @@
 package src.smartvApp;
 
+import java.sql.SQLOutput;
+
 public class SmartTV {
     boolean ligada = false;
     int canal = 1;
@@ -28,8 +30,10 @@ public class SmartTV {
 
     public void ligar (){
         ligada = true;
+        System.out.println("TV Ligada.");
     }
     public void desligar (){
         ligada = false;
+        System.out.println("TV Desligada.");
     }
 }
