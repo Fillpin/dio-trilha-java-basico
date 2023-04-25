@@ -8,8 +8,7 @@ public class Usuario {
         // Ligando a TV...
         System.out.println("Ligando a TV...");
         smartTv.ligar();
-
-
+        
         // Diminuindo o volume...
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
